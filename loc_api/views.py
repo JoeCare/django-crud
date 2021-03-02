@@ -1,5 +1,11 @@
 from django.shortcuts import render
-from urls import *
-# Create your views here.
+from .models import Snippet, Geolocator
+from rest_framework import relations, response
+
 
 def input_loc(request):
+	pass
+
+
+def output_loc(request):
+	pass
